@@ -9,8 +9,3 @@ root.render(
     <App />
 );
 
-
-
-/* 
-import "firebase/compat/firestore";
-import "firebase/compat/stroage"; */
