@@ -1,6 +1,11 @@
 import React,{useState,useEffect} from 'react';
 import AppRouter from "components/Router";
 import {authService} from "fbase";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
+import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faTrashAlt,faPencilAlt);
 
 function App() {
   const [init,setInit] = useState(false);
